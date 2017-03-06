@@ -21,3 +21,4 @@ http://docs.aws.amazon.com/cli/latest/reference/elasticbeanstalk/describe-config
 http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html#configuration-options-recommendedvalues
 http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/vpc-rds.html
 http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-beanstalk-configurationtemplate.html
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html
