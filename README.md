@@ -1,7 +1,7 @@
 # Amazon Web Services(AWS) CloudFormation
 If you have any questions feel free to contact with me. I may take a day to respond but I will get back to you. If this helps you, please Star(⭐️) this reponitory. 😁 
 ## Auto Scaling Elastic Beanstalk
-This was designed to be deployed inside us-east-1 datacenter. Instances are placed inside the private subnets, internet traffic coming from the load balancer traverses through the public subnets. If you're looking to migrate your customized application into the AWS cloud, this is a template I built. It has a total of 7 Subnets (4 Private, 3 Public), automatically scales for more compute power based on used resources, and uses the blue-green deployment method (replacing 25% of active instances at a time) with the ability to role back if an error occurs in the new version deployment. This template set up is valid for use in applications governed by PCI-DSS compliance; for use in payment card based transactions.
+This was designed to be deployed inside us-east-1 datacenter. Instances are placed inside the private subnets, internet traffic coming from the load balancer traverses through the public subnets. If you're looking to migrate your customized application into the AWS cloud, this is a template I built. It has a total of 7 Subnets (4 Private, 3 Public), automatically scales for more compute power based on used resources, and uses the blue-green deployment method (replacing 25% of active instances at a time) with the ability to role back if an error occurs in the new version deployment.
 #### VPC: 10.1.0.0 - 10.1.15.255 /20
 
 #### Public Subnets:
